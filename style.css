@@ -1,0 +1,315 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/*--- Navigation-----*/
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand img
+{
+  height: 50px;
+  padding-left: 30px;
+}
+
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+  color: rgb(55, 239, 80)!important;
+}
+
+.navbar
+{
+  background: #040325;
+}
+
+.navbar-toggler
+{
+  border: none!important;
+}
+
+.nav-link
+{
+  color: #37ef50;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*---Home Slider---*/
+#homeSlider
+{
+  width: 100%;
+}
+
+/*---Slider---*/
+#slider
+{
+  width: 100%;
+}
+.carousel-caption
+{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial!important;
+}
+.carousel-caption h5
+{
+  color: #ffffff;
+  font-size: 42px;
+}
+
+/*---About Us---*/
+#about
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #040325;
+}
+#about .btn
+{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about-content
+{
+  padding-top: 20px;
+}
+.progress-bar
+{
+  border-radius: 16px;
+}
+.progress
+{
+  border-radius: 16px!important;
+  margin-bottom: 20px;
+}
+/*--Tracks--*/
+#tracks
+{
+  background-color: #040325;
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#tracks h1
+{
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+#tracks h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.tracks
+{
+  margin-top: 40px;
+}
+.icon
+{
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+#tracks p
+{
+  font-size: 14px;
+  margin-top: 20px;
+  color: #cccccc;
+}
+.tracks .col-md-4:hover{
+  background-color: #007bff;
+  cursor: pointer;
+  transition: 0.7s;
+}
+/*---Core Team Members---*/
+#team
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #040325;
+}
+h1
+{
+  text-align: center;
+  padding-bottom: 10px;
+}
+h1::after
+{
+  content: '';
+  background: #37ef50;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.profile-pic
+{
+  margin-top: 25px;
+
+}
+.profile-pic .img-box
+{
+  opacity: 1;
+  display: block;
+  position: relative;
+  height: 100;
+  width: 75;
+}
+/*--Change value to 1 to convert to grey picture--*/
+.profile-pic .img-box img
+{
+  filter: grayscale(0);
+}
+.profile-pic .img-box img:hover
+{
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.profile-pic h2
+{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #007bff !important;
+}
+.profile-pic h3
+{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#team .fa
+{
+  height: 25px;
+  width: 25px;
+  color: #007bff !important;
+  background: #fff;
+  padding: 4px;
+  border-radius: 100%;
+}
+.img-box ul
+{
+  height: 50;
+  width: 50;
+  padding: 50px 0;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.img-box ul li
+{
+  padding: 5px;
+  display: inline-block;
+}
+.img-box:hover ul
+{
+  opacity: 1;
+}
+.img-box ul, .img-box li
+{
+  transition: 0.5s;
+}
+/*--Join Us--*/
+#joinUs
+{
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  color: #040325;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 100px;
+  font-family: sans-serif;
+  font-size: 38px;
+}
+/*---Projects---*/
+#projects
+{
+  padding: 40px 0;
+  background-color: #040325;
+  color: #37ef50;
+}
+.project
+{
+  margin: 10px auto;
+  display: inline;
+}
+.project-head
+{
+  display: inline;
+  padding: 10px 5px;
+  text-align: center;
+  color: #37ef50;
+}
+.project-head h2
+{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.project-head p
+{
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.project-content
+{
+  display: inline;
+  padding: 0 15px;
+}
+.project-more-info-button
+{
+  display: inline;
+  padding: 15px 15px 30px;
+  text-align: center;
+}
+.btn-link
+{
+  display: inline;
+  font-size: 18;
+  padding: 15px 50px;
+}
+.btn-link:hover
+{
+  background-color: lightblue;
+}
+/*---Contact---*/
+#contact
+{
+  padding: 40px 0;
+  background-color: #040325;
+  color: #37ef50;
+}
